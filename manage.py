@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__      = "Jesus Rodriguez"
+__license__     = "MIT"
+__version__     = "0.1"
+__status__      = "Prototype"
+
 import os
 from app import create_app
 from flask_sript import Manager, Server, Shell

@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__      = "Jesus Rodriguez"
+__license__     = "MIT"
+__version__     = "0.1"
+__status__      = "Prototype"
+
 from flask_wtf import Form
 from wtforms import StringField, SubmitField, PasswordField, ValidationError
 from wtforms.validators import Required, Length
