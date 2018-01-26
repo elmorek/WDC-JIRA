@@ -1,0 +1,12 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}JIRA Web Data Connector{% endblock %}
+
+{% block head %}
+{{ super() }}
+    <link href="{{url_for('static', filename='css/main.css')}}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+  <div class="page-header text-center">
+    <h1>JIRA Data Connector</h1>
+  </div>
+{% endblock %}
